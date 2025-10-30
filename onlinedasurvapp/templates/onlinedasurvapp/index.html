@@ -4,9 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{% static 'onlinedasurvapp/css/stylecss.css' %}">
     <title>Document</title>
 </head>
 <body>
+    {% include 'onlinedasurvapp/navbar.html' %}
+
+    <main>
+        {%block content%}
+        {% include 'onlinedasurvapp/home.html' %}
+        {% include 'onlinedasurvapp/shopitems.html' %}
+
+        {% endblock %}
+    </main>
+
     
 </body>
 </html>
