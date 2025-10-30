@@ -12,3 +12,9 @@ def home(request):
 
 def shop(request):
     return render(request, 'onlinedasurvapp/shopitems.html')
+
+def cart(request):
+    return render(request, 'onlinedasurvapp/cart.html')
+
+def blog(request):
+    return render(request, 'onlinedasurvapp/blog.html')
