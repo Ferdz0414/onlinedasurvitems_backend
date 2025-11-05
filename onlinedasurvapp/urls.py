@@ -10,5 +10,5 @@ urlpatterns = [
     path('', views.blog, name='blog'),
     path('', views.blog, name='contact'),
     path('', views.blog, name='signup'),
-    
+    path('', views.blog, name='footer'),
 ]

@@ -574,6 +574,15 @@ footer p{
         
         transition: all 0.5s ease;
     }
+    /* For the Blog */
+    .btn-form{
+    background: green;
+    border-radius: 10px;
+    width: 50%;
+    height: 80%;
+    padding: 10px;
+
+}
     /* For Sign up*/
     .register{
         max-width: 100%;

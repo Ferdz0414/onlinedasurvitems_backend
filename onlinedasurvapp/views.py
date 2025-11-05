@@ -24,3 +24,9 @@ def contact(request):
 
 def signup(request):
     return render(request, 'onlinedasurvapp/signup.html')
+
+def footer(request):
+    return render(request, 'onlinedasurvapp/footer.html')
+
+def chatbot(request):
+    return render(request, 'onlinedasurvapp/chatbot.html')
