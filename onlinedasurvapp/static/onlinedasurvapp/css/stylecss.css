@@ -172,6 +172,20 @@ span h1{
     color: var(--text--color-black);
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 40px;
+}
+.items img{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+}
+.items1 img{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
 }
 .product-list .items1 img{
     width: 100%;
@@ -574,6 +588,28 @@ footer p{
         
         transition: all 0.5s ease;
     }
+
+    /*Home Item */
+    .home-Items{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+
+    }
+    span h1{
+    font-size: 2.5rem;
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    flex-grow: 1;
+    flex-basis: 200; 
+    color: var(--text--color-black);
+    }
+    
+    
     /* For the Blog */
     .btn-form{
     background: green;
