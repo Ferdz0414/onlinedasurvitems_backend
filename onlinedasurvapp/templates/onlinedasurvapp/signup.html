@@ -1,0 +1,68 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'onlinedasurvapp/ccs/stylecss.ccs' %}">
+
+{% block content %}
+    <!--For Sign Up-->
+    <div class="register" >
+        <div class="signup" id="signup">
+            <form action="#" class="modal animate">
+            <a onclick="closeWin()" style="font-size: 10px; font-weight: 600; cursor: pointer; margin-top: 20px; padding: 10px;">&times;</a>                
+                <div class="detail">
+                    <label for="">FIRST NAME</label>
+                    <input type="text" placeholder="First Name" required>
+                </div>
+                
+                <div class="detail">
+                    <label for="">MiDDLE NAME</label>
+                    <input type="text" placeholder="Middle Name">
+                </div>
+
+                <div class="detail">
+                    <label for="">LAST NAME</label>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                
+                 <div class="detail">
+                    <label for="">CONTACT NUMBER</label>
+                    <input type="number" placeholder="Contact Number" required>
+                </div>
+
+                 <div class="detail">
+                    <label for="">EMAIL ADDRESS</label>
+                    <input type="email" placeholder="Email Address" required>
+                </div>              
+
+                 <div class="detail">
+                    <label for="">PASSWORD</label>
+                    <input type="password" placeholder="PASSWORD" required>
+                </div>
+
+                 <div class="detail">
+                    <label for="">CONFIRM PASSWORD</label>
+                    <input type="password" placeholder="CONFIRM PASSWORD" required>
+                </div>
+                <div class="contianer-btn">
+                    <button>Sign Up</button>
+                </div>
+                <div class="cancel-btn">
+                    <button>Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        /* For Sign Up */
+var modal = document.getElementById('signup');
+
+window.onclick = function(event){
+    if(event.target == modal){
+        modal.style.display = 'none';
+    }
+}
+
+function closeWin(){
+    document.getElementById('signup').style.display='none';
+}
+
+    </script>
+{% endblock %}

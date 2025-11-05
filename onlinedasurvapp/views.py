@@ -18,3 +18,9 @@ def cart(request):
 
 def blog(request):
     return render(request, 'onlinedasurvapp/blog.html')
+
+def contact(request):
+    return render(request, 'onlinedasurvapp/contact.html')
+
+def signup(request):
+    return render(request, 'onlinedasurvapp/signup.html')

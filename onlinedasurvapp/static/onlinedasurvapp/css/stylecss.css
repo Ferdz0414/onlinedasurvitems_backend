@@ -532,15 +532,15 @@ footer p{
 /*FOR MOBILE*/
 @media (max-width: 600px) {
     nav ul{
-        position: absolute;
-        top: 129px;
+        position: fixed;
+        top: 60px;
         left: 0;
         right: 0;
         flex-direction: column;
         background: var(--header--background);
         gap: 0;
+        z-index: 999;
         overflow: hidden;
-        z-index: 100;
     }
     nav ul li{
         padding: 10px;
@@ -571,7 +571,20 @@ footer p{
         display: block;
     }
     #menuList{
+        
         transition: all 0.5s ease;
+    }
+    /* For Sign up*/
+    .register{
+        max-width: 100%;
+    }
+    .signup{
+        width: 100%;
+        right: 0;
+    }
+    .modal{
+        width: 100%;
+        overflow-y: scroll;
     }
 
 }
