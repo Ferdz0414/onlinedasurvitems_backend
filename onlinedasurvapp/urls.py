@@ -11,4 +11,5 @@ urlpatterns = [
     path('', views.blog, name='contact'),
     path('', views.blog, name='signup'),
     path('', views.blog, name='footer'),
+    path('', views.blog, name='chatbot'),
 ]
