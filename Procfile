@@ -1,1 +1,1 @@
-web: gunicorn onlinedasurvapp.wsgi
+web: gunicorn onlinedasurvbackend.wsgi
